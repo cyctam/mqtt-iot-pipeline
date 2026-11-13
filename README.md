@@ -373,3 +373,7 @@ Key considerations include:
 - **Observability:** CloudWatch helps identify processing errors and operational bottlenecks.
 
 For production workloads, additional reliability mechanisms should include message validation, idempotent processing, retry strategies, dead-letter queues, and persistent data storage.
+
+## Live Demo
+- **Interactive Dashboard:** [https://mqtt-iot-dashboard-cyctam.vercel.app](https://mqtt-iot-dashboard-cyctam.vercel.app)
+*(Note: The live demo uses simulated data for demonstration purposes. The full MQTT/AWS pipeline runs in the local environment).*
