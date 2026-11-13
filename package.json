@@ -1,0 +1,14 @@
+{
+  "name": "mqtt-iot-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "services/*"
+  ],
+  "scripts": {
+    "dev:dashboard": "npm run dev --workspace=apps/dashboard",
+    "dev:api": "npm run dev --workspace=services/api-server",
+    "dev:publisher": "npm run dev --workspace=services/publisher"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "mqtt-realtime-pubsub-publisher",
+  "description": "MQTT publisher service (Lambda-compatible)",
+  "version": "1.0.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "local": "ts-node src/local-runner.ts"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "@types/node": "^20.4.2",
+    "@types/uuid": "^9.0.2",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "mqtt": "^4.3.7",
+    "uuid": "^9.0.0"
+  }
+}

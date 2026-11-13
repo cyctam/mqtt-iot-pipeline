@@ -1,0 +1,14 @@
+node_modules
+dist
+.env
+.env*
+.env*.local
+*.local
+!.env.example
+*.zip
+.DS_Store
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/*.tfvars
+.terraform.lock.hcl
